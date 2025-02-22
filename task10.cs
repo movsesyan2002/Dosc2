@@ -14,7 +14,7 @@ class Program {
         for (int j = 0; j < 10; ++j) 
         {
             if (mtx[i,j] == 'X') {
-                Console.WriteLine($"the X was found at {mtx[i]} {mtx[j]}");
+                Console.WriteLine($"the X was found at {i} {j}");
                 return;
             }
         }
